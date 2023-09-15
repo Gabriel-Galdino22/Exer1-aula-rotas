@@ -13,7 +13,7 @@ export default function Home() {
                     <p>Smartphone Samsung Galaxy A14 
                         Memória: 128GB 
                         Cor: Preto 
-                        Descrição: 4G Octa-Core 4GB RAM 6,6" Câm. Tripla + Selfie 13MP Dual Chip.</p>
+                        Descrição: 4G Octa-Core 4GB RAM 6,6 Câm. Tripla + Selfie 13MP Dual Chip.</p>
                 </div>
                 <div className="promo" onClick={() => handlePromoClick("https://www.magazineluiza.com.br/notebook-dell-inspiron-i15-i1100-u10p-15-6-full-hd-intel-pentium-gold-4gb-128gb-ssd-linux-preto/p/kh2cbd6239/in/note/?seller_id=dell&utm_source=google&utm_medium=pla&utm_campaign=&partner_id=69994&gclid=CjwKCAjwgZCoBhBnEiwAz35RwszEJnWextk_0VHLo-OdxtacYAG3Pb7Djc8HQ_otTdCUoZNQsXwPehoCSYkQAvD_BwE&gclsrc=aw.ds")}>
                     <h2>Promoção 2</h2>
