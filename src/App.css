@@ -47,7 +47,7 @@ nav {
   justify-content: center;
   align-items: center;
   height: 8vh;
-  background-color: rgb(3, 159, 250);
+  background-color: rgb(131, 2, 2);
 }
 nav a {
   color: white;
@@ -62,11 +62,11 @@ main {
   justify-content: center;
   align-items: center;
   height: 70vh;
-  background-color: #f8f8f8; /* Nova cor de fundo da Home */
+  background-color: #f8f8f8; 
 }
 .home-title {
-  font-size: 2em;
-  margin-bottom: 1em;
+  font-size: 5%;
+  margin-bottom: 3%;
 }
 
 .home-promo-container {
@@ -97,7 +97,7 @@ footer {
   justify-content: center;
   align-items: center;
   height: 5vh;
-  background-color: rgb(19, 22, 233);
+  background-color: rgb(131, 2, 2);
 }
 
 .promo-container {
