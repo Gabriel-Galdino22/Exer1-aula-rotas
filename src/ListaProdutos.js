@@ -12,7 +12,7 @@ export const listaProdutos = [
         nome:'Televisão LG',
         descricao: 'A Melhor imagem para sua noite de filme',
         preco:'R$4.975,00',
-        imagem: "img\TvLG.png"
+        imagem: "img\tvLG.png"
     },
     {
         id:3,
