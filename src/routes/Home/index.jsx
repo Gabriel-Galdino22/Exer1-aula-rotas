@@ -4,7 +4,7 @@ export default function Home() {
     };
 
     return (
-        <main>
+        <main className="home-main">
             <h1>Home</h1>
             <div className="promo-container">
                 <div className="promo" onClick={() => handlePromoClick("hhttps://www.magazineluiza.com.br/smartphone-samsung-galaxy-a14-128gb-preto-4g-octa-core-4gb-ram-66-cam-tripla-selfie-13mp-dual-chip/p/236721400/te/ga14/?seller_id=magazineluiza&utm_source=google&utm_medium=pla&utm_campaign=&partner_id=68710&gclid=CjwKCAjwgZCoBhBnEiwAz35RwvIYPT5_6hjUNJzGkX4W3UuaiDSqu2qZbscuv7TB-kpNjjWcIxuBvhoCwVcQAvD_BwE&gclsrc=aw.ds")}>
