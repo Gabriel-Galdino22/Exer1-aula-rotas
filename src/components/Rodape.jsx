@@ -1,7 +1,7 @@
 export default function Rodape() { 
     return (
         <footer> 
-             <p>Rodapé</p>
+             <p>Bem-vindo à Aparelhos do Ale!</p>
         </footer>
     )
 }
