@@ -12,10 +12,10 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #ececec);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #f10909fd);
 }
 
 @keyframes logo-spin {
@@ -38,5 +38,63 @@
 }
 
 .read-the-docs {
-  color: #888;
+  color: #ffffff;
+}
+nav{
+  display: flex; 
+  width: 100vw;
+  justify-content: center; 
+  align-items: center;
+  height: 8vh;
+  background-color: rgb(3, 159, 250); & a{color: white;
+  font-size: 1.5em; 
+  padding: 15px; }
+}
+  
+main{ display: flex;
+ width: 100vw;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center; 
+  height: 70vh;
+}
+footer{
+  display: flex; 
+  width: 100vw; 
+  justify-content: center;
+  align-items: center; 
+  height: 5vh;
+  background-color: rgb(19, 22, 233);
+}
+.promo-container {
+  display: flex;
+  justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+.promo {
+  width: 400px; 
+  margin: 20px;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center; 
+}
+.produto-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.produto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 2px;
+  width: 110px;
+}
+
+.produto img {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
 }
