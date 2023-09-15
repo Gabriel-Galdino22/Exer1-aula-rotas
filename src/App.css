@@ -40,44 +40,84 @@
 .read-the-docs {
   color: #ffffff;
 }
-nav{
-  display: flex; 
+
+nav {
+  display: flex;
   width: 100vw;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
   height: 8vh;
-  background-color: rgb(3, 159, 250); & a{color: white;
-  font-size: 1.5em; 
-  padding: 15px; }
+  background-color: rgb(3, 159, 250);
 }
-  
-main{ display: flex;
- width: 100vw;
-  flex-direction: column; 
-  justify-content: center;
-  align-items: center; 
-  height: 70vh;
-}
-footer{
-  display: flex; 
-  width: 100vw; 
-  justify-content: center;
-  align-items: center; 
-  height: 5vh;
-  background-color: rgb(19, 22, 233);
-}
-.promo-container {
-  display: flex;
-  justify-content: center; /* Centraliza os itens horizontalmente */
+nav a {
+  color: white;
+  font-size: 1.5em;
+  padding: 15px;
 }
 
-.promo {
-  width: 400px; 
+main {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background-color: #f8f8f8; /* Nova cor de fundo da Home */
+}
+.home-title {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.home-promo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.home-promo {
+  width: 400px;
   margin: 20px;
   padding: 10px;
   cursor: pointer;
-  text-align: center; 
+  text-align: center;
+  background-color: #fff; /* Cor de fundo dos elementos de promoção */
+  border-radius: 8px; /* Borda arredondada */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
 }
+
+.home-promo img {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+}
+
+footer {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  background-color: rgb(19, 22, 233);
+}
+
+.promo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.promo {
+  width: 400px;
+  margin: 20px;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+.promo img {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+}
+
 .produto-container {
   display: flex;
   flex-wrap: wrap;
