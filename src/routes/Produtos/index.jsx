@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import { listaProdutos } from '../../listaProdutos';
-
 export default function Produtos() {
     return (
         <main>
@@ -19,4 +18,4 @@ export default function Produtos() {
             </div>
         </main>
     );
-}
+}s
