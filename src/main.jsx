@@ -2,7 +2,6 @@ import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom'
 import Home from './routes/Home/index.jsx'
 import Produtos from './routes/Produtos/index.jsx'
 import Error from './routes/Error/index.jsx'
-import EditarProduto from './routes/EditarProduto/index.jsx'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
@@ -22,10 +21,6 @@ const router = createBrowserRouter([
       {
         path: "/produtos",
         element: <Produtos/>
-      },
-      {
-        path: "/produtos/editar/:id",
-        element: <EditarProduto/>
       },
       {
         path: "/antiga",

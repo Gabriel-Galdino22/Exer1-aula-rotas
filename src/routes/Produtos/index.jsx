@@ -12,7 +12,6 @@ export default function Produtos() {
                         <img src={prod.imagem} alt={prod.nome} />
                         
                         <p>Preço: R${prod.preco}</p>
-                        <Link to={`/produto/editar/${prod.id}`}>Editar</Link>
                         <Link to={`/produto/visualizar/${prod.id}`}>Visualizar</Link>
                     </div>
                 ))}
