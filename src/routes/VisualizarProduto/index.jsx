@@ -5,9 +5,6 @@ export default function VisualizarProduto() {
     const { id } = useParams();
     const produto = listaProdutos.find(prod => prod.id === id);
 
-    if (!produto) {
-        return <p>Não encontramos esse produto.</p>;
-    }
 
     return (
         <main>
