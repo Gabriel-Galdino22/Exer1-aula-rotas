@@ -10,7 +10,7 @@ export const listaProdutos = [
         id: 2, 
         nome:'Televisão LG',
         preco:4.975,
-        imagem: "https://drive.google.com/file/d/1bUGyZZpNPc9GYWw0UUHpg0hxV0dg5307/view?usp=drive_link"
+        imagem: "/img/TvLG.png"
     },
     {
         id:3,
