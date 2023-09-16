@@ -104,7 +104,6 @@ footer {
 .promo-container {
   display: flex;
   justify-content: center;
-  border-radius: 2px;
 }
 
 .promo {
@@ -118,7 +117,6 @@ footer {
   width: 100%;
   max-width: 100px;
   height: auto;
-  border-radius: 2px;
 }
 
 .produto-container {
